@@ -3,7 +3,7 @@ pipeline {
         label "jenkins-nodejs"
     }
     environment {
-      ORG               = 'salaboy'
+      ORG               = 'ouyangshixiong'
       APP_NAME          = 'ttc-dashboard-ui'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
