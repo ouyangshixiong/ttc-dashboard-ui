@@ -1,6 +1,6 @@
 {
   "/activiti-api": {
-    "target": "YOUR GATEWAY URL GOES HERE",
+    "target": "http://activiti-cloud-gateway.192.168.1.127.nip.io/",
     "secure": false,
     "pathRewrite": {
       "^/activiti-api": ""
